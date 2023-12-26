@@ -26,18 +26,14 @@
     font-size: 18px;
     font-weight: 400;
     line-height: normal;
+    width: 387px;
+    margin-right: 40.48px;
   }
 
   li:first-child {
     list-style: none;
   }
 }
-
-.header-menu {
-  width: 387px;
-  margin-right: 40.48px;
-}
-
 
 .logo {
   width: 148px;
