@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="praktice" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="praktice">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/ono-tebe-nado" local="$PROJECT_DIR$" web="/ono-tebe-nado" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
