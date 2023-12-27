@@ -100,18 +100,14 @@
   flex-direction: column;
   padding: 165px 50px 0;
 
-  span:first-child {
+  .aligned-text:first-child {
     padding-top: 0;
     line-height: 115%;
   }
 
-  span {
-    padding-top: 12px;
+  .aligned-text {
+    padding-top: 20px;
     line-height: 100%;
-  }
-
-  span:last-child {
-    padding-top: 6px;
   }
 
   .aligned-text-left {
@@ -139,7 +135,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 127px 50px 0 82px;
+  padding: 135px 50px 0 82px;
 }
 
 .cover-description-text {
@@ -150,7 +146,7 @@
   font-weight: 400;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing: 18.2px;
+  word-spacing: 18px;
   white-space: nowrap;
 }
 
@@ -198,6 +194,7 @@
   justify-content: space-between;
   margin-bottom: 30px;
   list-style-type: none;
+  flex-wrap: wrap;
 
   a {
     text-decoration: none;
