@@ -1,11 +1,15 @@
 /* Header block */
 
 .header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  display: inline-grid;
   padding: 92px 50px 96px;
   grid-template-columns: 1fr min-content 1fr;
+  justify-items: end;
+  align-items: center;
+
+  nav {
+    padding-top: 6px;
+  }
 
   .link-active {
     text-decoration: none;
@@ -22,10 +26,11 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    list-style: circle;
+    list-style-type: circle;
     font-size: 18px;
     font-weight: 400;
     line-height: normal;
+    white-space: nowrap;
     gap: 0 32px;
     margin-right: 40.48px;
   }
@@ -38,16 +43,21 @@
 .logo {
   width: 148px;
   height: 105px;
-  margin-right: 184.5px;
+  margin-top: 5px;
 }
 
 .address {
   display: flex;
   flex-direction: column;
+  font-style: normal;
 
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
+}
+
+.header-address {
+  padding-top: 5px;
 }
 
 /* Main block */
@@ -146,7 +156,7 @@
 
 .cover-button {
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 
   text-align: center;
   font-size: 22px;
@@ -353,7 +363,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    list-style: none;
+    list-style-type: none;
     color: #000;
 
     font-size: 18px;
